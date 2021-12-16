@@ -22,5 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     ## or path('hello/', HelloWorld)
     path('hello/', routesviews.HelloWorld),
-    path('todo/', routesviews.index)
+    path('todo/', routesviews.index),
+    path('journals/', routesviews.jindex),
+    path('supply/', routesviews.sindex)
 ]
